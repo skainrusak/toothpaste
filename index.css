@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    background-color: #ccccff;
+    font-family: SugoPro;
+}
+
+.navbar {
+    background-color: #4d4dff;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+#banner {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: gray;
+    padding: 3%;
+    
+}
+
+.bigbannertext {
+    font-size: 500%;
+    margin-top: 1%;
+}
+
+#bannerpic {
+    display: flex;
+    justify-content: center;
+}
+
+#demo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+@font-face {
+    font-family: "SugoPro";  
+    src: url("./fonts/SugoPro/Zetafonts\ -\ SugoProClassic-LightItalic.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+     }
+
+
+
+
+
+
+
+
+
