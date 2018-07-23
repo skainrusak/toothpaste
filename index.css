@@ -15,6 +15,11 @@ body {
 .navbar-nav {
     list-style-type: none;
 }
+
+li {
+    display: inline;
+}
+
 #banner {
     margin-top: 1%;
     margin-bottom: 2%;
@@ -22,6 +27,8 @@ body {
     padding: 3%;
     
 }
+
+
 
 .bigbannertext {
     font-size: 500%;
