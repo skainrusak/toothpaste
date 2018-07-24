@@ -69,20 +69,6 @@ li {
     margin-bottom: 5%;
 }
 
-@media (min-width: 768px) { 
-#info {
-    display: flex;
-}
-
-#contacts {
-    align-self: flex-end;
-}
-
-#about {
-    align-self: flex-start;
-}
-}
-
 
 @font-face {
     font-family: "SugoPro";  
