@@ -16,8 +16,21 @@ body {
     list-style-type: none;
 }
 
+.navbar-brand {
+    font-size: 200%;
+    color: white;
+}
+ #log-in {
+     font-size: 150%;
+     color: white;
+     margin-left: 15px;
+ }
+
+
 li {
     display: inline;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #banner {
