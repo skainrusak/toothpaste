@@ -4,12 +4,13 @@
 
 body {
     padding: 0;
-    background-color: #ccccff;
+    background-color:  #C7E1BA;
     font-family: SugoPro;
 }
 
 .navbar {
-    background-color: #4d4dff;
+    background-color:  #FD795B;
+    color:  #62C2CC;
     padding: 0  10px 0 10px;
 }
 
@@ -20,11 +21,11 @@ body {
 
 .navbar-brand {
     font-size: 200%;
-    color: white;
+    color:  #397249;
 }
  #log-in {
      font-size: 150%;
-     color: white;
+     color:  #397249;
      margin-left: 15px;
  }
 
@@ -38,25 +39,28 @@ li {
 #banner {
     margin-top: 1%;
     margin-bottom: 2%;
-    background-color: gray;
+    background-color:     #F6E4CC;
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 5%;
     padding-right: 5%;
+    color:  #397249;
+    border-top: 5px dashed  #FD795B;
+    border-bottom: 5px dashed  #FD795B;
     
 }
 
-.container .row {
-    border: 2px solid red;
+.jumbotron {
+    background-color:  #9CB770;
+    color: white;
 }
- .row div {
-     border: 2px solid green;
- }
 
 
 .bigbannertext {
     font-size: 500%;
     margin-top: 1%;
+    color:   #C7E1BA;
+    background-color:  #628B61;
 }
 
 #bannerpic {
@@ -69,6 +73,43 @@ li {
     margin-bottom: 5%;
 }
 
+.menu-text {
+    background-color:  #397249;
+    color:  #F3D5BD;
+}
+
+#smoke {
+    background-image: url(./backgrounds/back-smoke.jpg);
+    
+}
+
+  
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+footer {
+    background-color:   #9CB770;
+    color: white;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.footer-copyright {
+    background-color: #397249;
+}
+
+
 
 @font-face {
     font-family: "SugoPro";  
@@ -76,6 +117,8 @@ li {
     font-style: normal; 
     font-weight: normal;
      }
+
+
 
 
 
