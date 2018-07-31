@@ -1,0 +1,16 @@
+.container {
+    border: 2px solid red;
+}
+
+.row {
+    border: 2px solid black;
+}
+
+.col-md-7 {
+    border: 2px solid green;
+}
+
+.jumbotron {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
