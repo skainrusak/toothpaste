@@ -43,11 +43,9 @@
                          data-show-faces="false" data-auto-logout-link="true" 
                          data-use-continue-as="true"></div>                         <!-- Кнопка fb-->
 
-                         <div class="g-signin2" data-onsuccess="onSignIn"></div>    <!-- Кнопка google --> 
                          
-                         <div id="my-signin2"></div>
-                         
-                          <script>
+
+                          <script>                                                   // Кнопка google
                             function onSuccess(googleUser) {
                               console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
                             }
