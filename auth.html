@@ -4,10 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>shop</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" 
+        integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
         <link rel="stylesheet" href="./index.css">
         <link rel="stylesheet" href="./auth.css">
-        <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+        <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com"> <!-- Подключаем вход через google -->        <div id="fb-root"></div>
+        <script>(function(d, s, id) {                                                              //  Подключаем вход через Facebook 
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=857123427825421&autoLogAppEvents=1';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
     </head>
 
     <body>
@@ -49,10 +57,13 @@
                  <div class="col-md-7">
                      <div class="jumbotron">
                          <h1>Регистрация</h1>
+                         
+                         <div class="fb-login-button" data-max-rows="1" 
+                         data-size="large" data-button-type="login_with" 
+                         data-show-faces="false" data-auto-logout-link="true" 
+                         data-use-continue-as="true"></div>                         <!-- Кнопка fb-->
 
-                         <button type="button" class="btn btn-primary">Войти через Facebook</button> <br><br>
-                         <button type="button" class="btn btn-danger">Войти через Google</button>
-                         <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                         <div class="g-signin2" data-onsuccess="onSignIn"></div>    <!-- Кнопка google -->                                          
 
                      </div>
                  </div>
