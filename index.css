@@ -5,12 +5,12 @@
 body {
     padding: 0;
     background-color:  #C7E1BA;
-    font-family: SugoPro;
+    font-family: "ProductSans";
 }
 
 .navbar {
-    background-color:  #FD795B;
-    color:  #62C2CC;
+    background-color:  #628B61;
+    color:  #C7E1BA;
     padding: 0  10px 0 10px;
 }
 
@@ -20,8 +20,9 @@ body {
 }
 
 .navbar-brand {
+font-family:"SugoPro";
     font-size: 200%;
-    color:  #397249;
+    color:  #C7E1BA;
 }
  #log-in {
      font-size: 150%;
@@ -39,30 +40,33 @@ li {
 #banner {
     margin-top: 1%;
     margin-bottom: 2%;
-    background-color:     #F6E4CC;
+    background-color: #FD795B ;
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 5%;
     padding-right: 5%;
-    color:  #397249;
-    border-top: 5px dashed  #FD795B;
-    border-bottom: 5px dashed  #FD795B;
+    color:  #F6E4CC;
+    border-top: 5px dashed  #F6E4CC;
+    border-bottom: 5px dashed  #F6E4CC;
     
 }
 
 .jumbotron {
     background-color:  #9CB770;
-    color: white;
+    color: black;
 }
 
 
 .bigbannertext {
     font-size: 500%;
     margin-top: 1%;
-    color:   #C7E1BA;
-    background-color:  #628B61;
+    color: #7e3c2d;
+    font-family:HanSoloRUSbyDaymarius;
 }
-
+.lilbannertext
+{
+font-size: 1em;
+}
 #bannerpic {
     display: flex;
     justify-content: center;
@@ -306,6 +310,23 @@ footer {
     font-style: normal; 
     font-weight: normal;
      }
+
+@font-face
+{
+font-family: "HanSoloRUSbyDaymarius";
+src: url("./fonts/12084.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal;
+}
+
+@font-face
+{
+font-family: "ProductSans";
+src: url("./fonts/11823.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal;
+}
+
 
 
 
