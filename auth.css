@@ -1,6 +1,9 @@
 .container {
     border: 2px solid red;
 }
+.navbar {
+    font-size: 80%;
+}
 
 .row {
     border: 2px solid black;
