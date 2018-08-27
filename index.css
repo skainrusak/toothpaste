@@ -76,10 +76,18 @@ li {
     color: #7e3c2d;
     font-family:HanSoloRUSbyDaymarius;
 }
+
+.bigbannertext:hover {
+  color: #5d2d22;
+}
 .lilbannertext
 {
 font-size: 1em;
 }
+
+
+  
+
 #bannerpic {
     display: flex;
     justify-content: center;
@@ -122,7 +130,7 @@ footer {
     padding-top: 3%;
 }
 
-.copyright {
+.footer-dark {
     background-color: #397249;
 }
 
@@ -339,6 +347,8 @@ src: url("./fonts/11823.ttf") format("truetype");
 font-style: normal; 
 font-weight: normal;
 }
+
+
 
 
 
