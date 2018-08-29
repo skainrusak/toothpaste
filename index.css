@@ -24,6 +24,20 @@ a:hover {
   margin: 5px;
 }
 
+.navbar-brand {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-brand:hover .overlay {
+    position:absolute;
+    width: 48px;
+    height: 48px;
+    z-index: 100;
+    background: transparent url('overlay_image.png') no-repeat;
+    cursor: pointer;
+  }
+
 
 .navbar-nav {
     list-style-type: none;
