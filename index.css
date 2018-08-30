@@ -117,7 +117,16 @@ footer {
     font-style: normal; 
     font-weight: normal;
      }
-
+.btn-primary,
+.btn-primary:hover, 
+.btn-primary:active,
+.btn-primary:visited
+{
+    border-color: #8064A2 !important;
+    background-color: #8064A2 !important;
+    top:7px !important; 
+    height: 25px;
+}
 
 
 
