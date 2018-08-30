@@ -19,13 +19,9 @@ a:hover {
 }
 
 
-
 #logo {
   margin: 5px;
 }
-
-
-
 
 
 .navbar-nav {
@@ -164,22 +160,7 @@ footer {
     }
   }
    
-  /* Стили для текста внутри благодарственного окна после успешной отправки */
-  .thank_you_window .thank_you_title {
-    font-family: "Titillium Web", sans-serif;
-    color: #fff;
-    font-size: 32px;
-    line-height: 50px;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-  .thank_you_window .thank_you_body {
-    font-family: "Titillium Web", sans-serif;
-    color: #fff;
-    font-size: 24px;
-    font-weight: 400;
-  }
-
+  
 @font-face {
     font-family: "SugoPro";  
     src: url("./fonts/SugoPro/Zetafonts\ -\ SugoProClassic-LightItalic.otf") format("truetype"); 
