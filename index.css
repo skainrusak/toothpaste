@@ -24,19 +24,8 @@ a:hover {
   margin: 5px;
 }
 
-.navbar-brand {
-    position: relative;
-    display: inline-block;
-}
 
-.navbar-brand:hover .overlay {
-    position:absolute;
-    width: 48px;
-    height: 48px;
-    z-index: 100;
-    background: transparent url('overlay_image.png') no-repeat;
-    cursor: pointer;
-  }
+
 
 
 .navbar-nav {
@@ -112,9 +101,25 @@ font-size: 1em;
     color:  #F3D5BD;
 }
 
+
+.btn {
+    width: 15em;
+    height: 15em;
+    border: 2px solid yellow;
+}
+
+.d-inline-flex {
+    border: 2px solid black;
+}
+
 #smoke {
     background-image: url(./backgrounds/back-smoke.jpg);
     
+}
+
+.menu-containter {
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 
