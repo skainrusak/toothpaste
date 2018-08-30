@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -127,6 +128,220 @@ footer {
     top:7px !important; 
     height: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+=======
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    background-color:  #C7E1BA;
+    font-family: "ProductSans";
+}
+
+.navbar {
+    background-color:  #628B61;
+    color:  #C7E1BA;
+    padding: 0  10px 0 10px;
+}
+
+a:hover {
+  color: white;
+}
+
+
+
+#logo {
+  margin: 5px;
+}
+
+
+
+
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+.navbar-brand {
+font-family:"SugoPro";
+    font-size: 200%;
+    color:  #C7E1BA;
+}
+ #log-in {
+     font-size: 150%;
+     color:  #397249;
+     margin-left: 15px;
+ }
+
+
+li {
+    display: inline;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#banner {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: #FD795B ;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color:  #F6E4CC;
+    border-top: 5px dashed  #F6E4CC;
+    border-bottom: 5px dashed  #F6E4CC;
+    
+}
+
+.jumbotron {
+    background-color:  #9CB770;
+    color: black;
+}
+
+
+.bigbannertext {
+    font-size: 500%;
+    margin-top: 1%;
+    color: #7e3c2d;
+    font-family:HanSoloRUSbyDaymarius;
+}
+
+
+.lilbannertext
+{
+font-size: 1em;
+}
+
+
+  
+
+#bannerpic {
+    display: flex;
+    justify-content: center;
+}
+
+#demo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.menu-text {
+    background-color:  #397249;
+    color:  #F3D5BD;
+}
+
+
+.btn {
+    width: 15em;
+    height: 15em;
+    border: 2px solid yellow;
+}
+
+.d-inline-flex {
+    border: 2px solid black;
+}
+
+#smoke {
+    background-image: url(./backgrounds/back-smoke.jpg);
+    
+}
+
+.menu-containter {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+
+
+footer {
+    background-color:   #9CB770;
+    color: white;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.footer-dark {
+    background-color: #397249;
+}
+
+
+  @media only screen and (max-width : 480px) {
+    .subscribe_window{
+      top: 5%;
+      margin-top: 0;
+    }
+    .subscribe_window .subcsribe-text{
+      padding: 0;
+    }
+    .subscribe-form input:focus + label{
+      left: 20px;
+      top: -18px;
+    }
+    .subscribe-form input:valid + label{
+      left: 20px;
+      top: -18px;
+    }
+    .subscribe-form input:invalid:not(:focus):not(:placeholder-shown) + label{
+      left: 20px;
+      top: -18px;
+    }
+  }
+   
+  /* Стили для текста внутри благодарственного окна после успешной отправки */
+  .thank_you_window .thank_you_title {
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .thank_you_window .thank_you_body {
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+@font-face {
+    font-family: "SugoPro";  
+    src: url("./fonts/SugoPro/Zetafonts\ -\ SugoProClassic-LightItalic.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+     }
+
+@font-face
+{
+font-family: "HanSoloRUSbyDaymarius";
+src: url("./fonts/12084.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal;
+}
+
+@font-face
+{
+font-family: "ProductSans";
+src: url("./fonts/11823.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal;
+}
+
+
+
+
+
 
 
 
