@@ -105,11 +105,17 @@ font-size: 1em;
 .btn {
     width: 15em;
     height: 15em;
-    border: 2px solid yellow;
+    background-image: url(./pics/drawing.png);
+    
+}
+
+.btn:hover {
+    border: 3px solid  #397249;
 }
 
 .d-inline-flex {
-    border: 2px solid black;
+    margin: 1%;
+    
 }
 
 #smoke {
