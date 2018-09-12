@@ -25,9 +25,6 @@ a:hover {
 }
 
 
-
-
-
 .navbar-nav {
     list-style-type: none;
 }
@@ -102,7 +99,7 @@ font-size: 1em;
 }
 
 
-.btn {
+.menu {
     width: 15em;
     height: 15em;
     background-image: url(./pics/drawing.png);
