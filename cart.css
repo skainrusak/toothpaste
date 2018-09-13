@@ -14,15 +14,13 @@ min-height: 50% !important;
 }
 
 .table {
-    border: 2px solid red;
+    
     margin-left: 2%;
+    margin-right: 2%;
     
 }
 
-td,th {
-    border: 1px solid yellow;
-}
 
-.item-img {
-    border: 1px solid black;
+input {
+    width: 50px;
 }
