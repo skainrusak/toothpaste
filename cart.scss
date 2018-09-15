@@ -1,0 +1,17 @@
+@import "./functions";
+@import "./variables";
+@import "./breakpoints";
+
+.desktop {
+    @include media-breakpoint-down(xs) {
+        display: none;
+    }
+    @include media-breakpoint-up(md) {
+        .desktop {
+          display: block;
+        }
+      }
+      }
+
+
+

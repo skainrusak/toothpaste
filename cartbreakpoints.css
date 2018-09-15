@@ -1,0 +1,12 @@
+@media (max-width: 575.98px) {
+  .desktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=cartbreakpoints.css.map */
