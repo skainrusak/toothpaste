@@ -147,7 +147,8 @@ footer {
     }
 
     .menu {
-        width: 200px;
+        width: 160px;
+        height: auto;
     }
 
     p {
