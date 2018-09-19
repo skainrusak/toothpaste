@@ -8,6 +8,9 @@ body {
     font-family: "ProductSans";
 }
 
+.container {
+    min-height: 10em;
+}
 .navbar {
     background-color:  #628B61;
     color:  #C7E1BA;

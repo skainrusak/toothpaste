@@ -39,7 +39,7 @@
 
   <div class="container cart">
   <div class="row">
-    <div class="table-responsive-md"><table class="table">
+    <div class="big-table"><table class="table">
         <tbody>
             <tr>
               <th scope="col">Изображение</th>
@@ -49,7 +49,7 @@
               <th scope="col">Удалить</th>
             </tr>
             <tr>
-              <th scope="row"><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="140px" height="140px"></a></th>
+              <td scope="row"><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="140px" height="140px"></a></td>
               <td>Mark кпекро ерогнекунреоне екнк инркеер иереквр екрекрв ерекрек</td>
               <td><input type="number"></td>
               <td>200 сом</td>
@@ -57,11 +57,15 @@
             </tr>
 
             <tr>
-              <th scope="row"><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="140px" height="140px"></a></th>
+              <td scope="row"><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="140px" height="140px"></a></td>
               <td>Mark кпекро ерогнекунреоне екнк</td>
               <td><input type="number"></td>
               <td>200 сом</td>
               <td><button type="button" class="btn">X</button></td>
+            </tr>
+
+            <tr>
+              <th scope="row" colspan="4" class="cart-sum">Итого: 400 сом</th>
             </tr>
             
           </tbody>
@@ -69,7 +73,39 @@
     </table></div>
 
   </div>
+ <!-- Конец большой таблицы -->
+
+<div class="small-table">
+  <table class="table">
+    <tbody>
+      <tr>
+        <td><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="80px" height="80px"></a></td>
+        <td><b>Название продукта</b><br>
+                        400 сом <br>
+                        <input type="number">
+        </td>
+        <td><button type="button" class="btn">X</button></td>
+      </tr>
+
+      <tr>
+        <td><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="80px" height="80px"></a></td>
+        <td><b>Название продукта</b><br>
+                        400 сом <br>
+                        <input type="number">
+        </td>
+        <td><button type="button" class="btn">X</button></td>
+      </tr>
+
+      <tr>
+        <th scope="row" colspan="4" class="cart-sum">Итого: 400 сом</th>
+      </tr>
+
+      
+    </tbody>
+  </table>
 </div>
+
+</div> <!-- row end -->
 
 </div>
  <!-- Footer -->
