@@ -8,9 +8,6 @@ body {
     font-family: "ProductSans";
 }
 
-.container {
-    min-height: 10em;
-}
 .navbar {
     background-color:  #628B61;
     color:  #C7E1BA;
@@ -139,6 +136,23 @@ footer {
 
 .footer-dark {
     background-color: #397249;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+        font-size: 0.7em;
+    }
+    .bigbannertext {
+        font-size: 4em;
+    }
+
+    .menu {
+        width: 220px;
+    }
+
+    p {
+        font-size: 1em;
+    }
 }
 
 
