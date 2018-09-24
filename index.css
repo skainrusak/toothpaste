@@ -8,11 +8,15 @@ body {
     font-family: "ProductSans";
 }
 
+
+
 .navbar {
     background-color:  #628B61;
     color:  #C7E1BA;
     padding: 0  10px 0 10px;
 }
+
+
 
 a:hover {
   color: white;
@@ -46,6 +50,11 @@ li {
     margin-left: 8px;
     margin-right: 8px;
 }
+
+
+    
+    
+
 
 #banner {
     margin-top: 1%;
@@ -146,14 +155,35 @@ footer {
         font-size: 4em;
     }
 
+    #bannerpic {
+        width: 50%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    #bannerpic img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
     .menu {
         width: 150px;
         height: 150px;
-    }
+        
+}
 
     p {
         font-size: 1em;
     }
+
+    .nav-item {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+}
+
+
+
 }
 
 
