@@ -1,144 +1,3 @@
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    padding: 0;
-    background-color:  #C7E1BA;
-    font-family: SugoPro;
-}
-
-.navbar {
-    background-color:  #FD795B;
-    color:  #62C2CC;
-    padding: 0  10px 0 10px;
-}
-
-
-.navbar-nav {
-    list-style-type: none;
-}
-
-.navbar-brand {
-    font-size: 200%;
-    color:  #397249;
-}
- #log-in {
-     font-size: 150%;
-     color:  #397249;
-     margin-left: 15px;
- }
-
-
-li {
-    display: inline;
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-#banner {
-    margin-top: 1%;
-    margin-bottom: 2%;
-    background-color:     #F6E4CC;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
-    color:  #397249;
-    border-top: 5px dashed  #FD795B;
-    border-bottom: 5px dashed  #FD795B;
-    
-}
-
-.jumbotron {
-    background-color:  #9CB770;
-    color: white;
-}
-
-
-.bigbannertext {
-    font-size: 500%;
-    margin-top: 1%;
-    color:   #C7E1BA;
-    background-color:  #628B61;
-}
-
-#bannerpic {
-    display: flex;
-    justify-content: center;
-}
-
-#demo {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.menu-text {
-    background-color:  #397249;
-    color:  #F3D5BD;
-}
-
-#smoke {
-    background-image: url(./backgrounds/back-smoke.jpg);
-    
-}
-
-  
-#overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0; 
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-}
-
-footer {
-    background-color:   #9CB770;
-    color: white;
-    padding-left: 3%;
-    padding-top: 3%;
-}
-
-.footer-copyright {
-    background-color: #397249;
-}
-
-
-
-@font-face {
-    font-family: "SugoPro";  
-    src: url("./fonts/SugoPro/Zetafonts\ -\ SugoProClassic-LightItalic.otf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal;
-     }
-.btn-primary,
-.btn-primary:hover, 
-.btn-primary:active,
-.btn-primary:visited
-{
-    border-color: #8064A2 !important;
-    background-color: #8064A2 !important;
-    top:7px !important; 
-    height: 25px;
-}
-
-
-
-
-
-
-
-
-
-
-=======
 * {
     box-sizing: border-box;
 }
@@ -149,11 +8,18 @@ body {
     font-family: "ProductSans";
 }
 
+.menu-tile {
+    margin: 0 auto;     /* центрирую плитку */
+    max-width: 900px;
+   }
+
 .navbar {
     background-color:  #628B61;
     color:  #C7E1BA;
     padding: 0  10px 0 10px;
 }
+
+
 
 a:hover {
   color: white;
@@ -164,9 +30,6 @@ a:hover {
 #logo {
   margin: 5px;
 }
-
-
-
 
 
 .navbar-nav {
@@ -191,6 +54,11 @@ li {
     margin-right: 8px;
 }
 
+
+    
+    
+
+
 #banner {
     margin-top: 1%;
     margin-bottom: 2%;
@@ -208,7 +76,20 @@ li {
 .jumbotron {
     background-color:  #9CB770;
     color: black;
+    padding-left: 4em;
+    padding-right: 5em;
+    padding-bottom: 1em;
 }
+
+#about p {
+    margin-top: 2em;
+}
+
+#contacts p {
+    margin-top: 2em;
+}
+
+
 
 
 .bigbannertext {
@@ -237,26 +118,26 @@ font-size: 1em;
     margin-bottom: 5%;
 }
 
-.menu-text {
-    background-color:  #397249;
-    color:  #F3D5BD;
+.menu-containter {
+    text-align: center;
 }
 
-
-.btn {
+.menu {
     width: 15em;
     height: 15em;
-    border: 2px solid yellow;
+    background-image: url(./pics/drawing.png);
+    
+}
+
+.btn:hover {
+    border: 3px solid  #397249;
 }
 
 .d-inline-flex {
-    border: 2px solid black;
-}
-
-#smoke {
-    background-image: url(./backgrounds/back-smoke.jpg);
+    margin: 1%;
     
 }
+
 
 .menu-containter {
     margin-top: 6%;
@@ -275,6 +156,50 @@ footer {
 .footer-dark {
     background-color: #397249;
 }
+
+@media (max-width: 767px) {
+    .navbar {
+        font-size: 0.7em;
+        padding:  1em  10px 1em 10px; 
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+    .bigbannertext {
+        font-size: 2em;
+    }
+
+    .lilbannertext {
+        display: none;
+    } 
+
+    #bannerpic {             /* стандартные настойки чтоб картинка была респонсив */
+        width: 50%;
+        height: 50%;
+        overflow: hidden;
+    }
+
+    #bannerpic img {         /* стандартные настойки чтоб картинка была респонсив */
+        max-width: 100%;
+        height: 100px;
+        display: block;
+    }
+
+    .menu {
+        width: 150px;
+        height: 150px;
+        
+}
+
+    p {
+        font-size: 1em;
+    }
+        
+
+
+
+} 
 
 
   @media only screen and (max-width : 480px) {
@@ -337,18 +262,3 @@ src: url("./fonts/11823.ttf") format("truetype");
 font-style: normal; 
 font-weight: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

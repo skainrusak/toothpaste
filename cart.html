@@ -1,56 +1,246 @@
 <!DOCTYPE html> 
 <html lang="en"> 
-    <head> 
-<!-- Basic Page Needs
+<head> 
+     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <meta charset="UTF-8" /> 
-<title></title>
- <!-- Mobile Specific Metas
+    <meta charset="UTF-8" /> 
+     <title></title>
+     <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- FONT
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
- <!-- CSS
+     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link rel = "stylesheet" type="text/css" href="cart.css" media="all" />
+      <link rel = "stylesheet" type="text/css" href="cart.css" media="all" />
+      <link rel="stylesheet" href="./index.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 </head>
 
 <body>
-<div class="container">
-<div class="cart">
+    <div class="containter-fluid">
+    <div class="row">
+    <div class="col">
+    <nav class="navbar">
+        <a class="navbar-brand" href="home.html"><img src="./icons/eclipse.png" height="65px" id="logo"/>
+           ROOM.KG</a>
+            <ul class="navbar-nav mr-auto" id="nav-links"></ul>
+                <li class="nav-item"><a href=""><img src="./icons/facebook.svg" height="30px" border="0"/></a></li>
+                    <li class="nav-item"><a href=""><img  src="./icons/instagram.svg" height="30px" border="0"/></a></li>
+                    <li class="nav-item"><a href="cart.html"><img id="basket" src="./icons/cart.svg" height="30px" border="0"/><a href="#" class="badge badge-warning">0</a></a></li>
+                    <li class="nav-item"><a id="log-in" href="auth.html">Войти</a></li>
+            </ul>
+    </nav>
+    </div>
+  </div> </div>
 
-  <div class="item1"><h1>Корзина</h1></div>
-  <div class="col-xs-6 col-md-4">
-  <div class="item2">код товара</div>
-</div>
-  <!--<div class="rounded-circle">-->
-  <div class="item3">
-    <img src="pics/ZACT Lion.png"height="45" >
+
+
+  <div class="container cart">
+  <div class="row">
+    <div class="big-table"><table class="table">
+        <tbody>
+            <tr>
+              <th scope="col">Изображение</th>
+              <th scope="col">Описание</th>
+              <th scope="col">Количество</th>
+              <th scope="col">Стоимость</th>
+              <th scope="col">Удалить</th>
+            </tr>
+            <tr>
+              <td scope="row"><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="140px" height="140px"></a></td>
+              <td>Mark кпекро ерогнекунреоне екнк инркеер иереквр екрекрв ерекрек</td>
+              <td><input type="number"></td>
+              <td>200 сом</td>
+              <td><button type="button" class="btn">X</button></td>
+            </tr>
+
+            <tr>
+              <td scope="row"><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="140px" height="140px"></a></td>
+              <td>Mark кпекро ерогнекунреоне екнк</td>
+              <td><input type="number"></td>
+              <td>200 сом</td>
+              <td><button type="button" class="btn">X</button></td>
+            </tr>
+
+            <tr>
+              <th scope="row" colspan="4" class="cart-sum">Итого: 400 сом</th>
+            </tr>
+            
+          </tbody>
+
+    </table></div>
+
   </div>
-<!--</div>-->
-  <div class="col-xs-6 col-md-4">
-  <div class="item4">наименование</div>
+ <!-- Конец большой таблицы -->
+
+<div class="small-table">
+  <table class="table">
+    <tbody>
+      <tr>
+        <td><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="80px" height="80px"></a></td>
+        <td><b>Название продукта</b><br>
+                        400 сом <br>
+                        <input type="number">
+        </td>
+        <td><button type="button" class="btn">X</button></td>
+      </tr>
+
+      <tr>
+        <td><a href="#"><img class="item-img" src="./pics/Etiquette Lion.png" width="80px" height="80px"></a></td>
+        <td><b>Название продукта</b><br>
+                        400 сом <br>
+                        <input type="number">
+        </td>
+        <td><button type="button" class="btn">X</button></td>
+      </tr>
+
+      <tr>
+        <th scope="row" colspan="4" class="cart-sum">Итого: 400 сом</th>
+      </tr>
+
+      
+    </tbody>
+  </table>
 </div>
-  <div class="col-xs-6 col-md-4">
-  <div class="item5">цена</div>
+
+</div> <!-- row end -->
+
 </div>
-  <div class="col-xs-5 col-md-4">
-  <div class="item6">количество, шт</div>
-</div>
-  <div class="col-xs-5 col-md-3">
-  <div class="item7">сумма</div>
-</div>
-  <div class="col-xs-6 col-md-4">
-  <div class="item8"><button class="delbut">
-    Удалить из корзины
-  </button></div>
-</div>
-  <div class="item9">1672267267</div>
+ <!-- Footer -->
+ <footer class="page-footer mdb-color pt-4">
+
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3 ">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Карта сайта</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Ссылка</a>
+              </li>
+              <li>
+                <a href="#!">Ссылка</a>
+              </li>
+              <li>
+                <a href="#!">Ссылка</a>
+              </li>
+              <li>
+                <a href="#!">Ссылка</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+
+<!-- Footer Links -->
+<div class="container text-center text-md-left  footer-dark">
+
+  <!-- Footer links -->
+  <div class="row text-center text-md-left mt-3 pb-3">
+
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">ROOM.KG</h6>
+      <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit.</p>
+    </div>
+    <!-- Grid column -->
+
+    <hr class="w-100 clearfix d-md-none">
+
+    <!-- Grid column -->
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">Продукты:</h6>
+      <p>
+        <a href="#!">Паста для курильщиков</a>
+      </p>
+      <p>
+        <a href="#!">Паста для детей</a>
+      </p>
+      <p>
+        <a href="#!">Гипоаллергенная паста</a>
+      </p>
+      
+    </div>
+    <!-- Grid column -->
+
+    <hr class="w-100 clearfix d-md-none">
+
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+      <p>
+        <a href="#!">Your Account</a>
+      </p>
+      <p>
+        <a href="#!">Become an Affiliate</a>
+      </p>
+      <p>
+        <a href="#!">Shipping Rates</a>
+      </p>
+      <p>
+        <a href="#!">Help</a>
+      </p>
+    </div>
+
+    <!-- Grid column -->
+    <hr class="w-100 clearfix d-md-none">
+
+    <!-- Grid column -->
+    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+      <p>
+        <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+      <p>
+        <i class="fa fa-envelope mr-3"></i> info@gmail.com</p>
+      <p>
+        <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+      <p>
+        <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+    </div>
+    <!-- Grid column -->
+
+  </div>
   
-</div>
-</div>
+</footer>
+<!-- Footer -->
+
+
+
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script> 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="auth.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" 
+    integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" 
+    crossorigin="anonymous"></script>
+   
+   
 
 </body>
 </html>
