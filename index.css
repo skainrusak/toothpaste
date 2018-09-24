@@ -147,7 +147,7 @@ footer {
     background-color: #397249;
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
     .navbar {
         font-size: 0.7em;
     }
@@ -180,7 +180,8 @@ footer {
     .nav-item {
         margin-left: 0.5em;
         margin-right: 0.5em;
-}
+        width: 20px;
+        
 
 
 
