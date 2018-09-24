@@ -163,7 +163,7 @@ footer {
         padding:  1em  10px 1em 10px; 
     }
 
-    .navbar-brand {
+    #logo {
         display: none;
     }
     .bigbannertext {
@@ -194,6 +194,11 @@ footer {
 
     p {
         font-size: 1em;
+    }
+
+    .jumbotron {
+        margin: 0 auto;     /* центрирую плитку */
+        max-width: 500px;
     }
         
 
