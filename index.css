@@ -8,7 +8,10 @@ body {
     font-family: "ProductSans";
 }
 
-
+.menu-tile {
+    margin: 0 auto;     /* центрирую плитку */
+    max-width: 900px;
+   }
 
 .navbar {
     background-color:  #628B61;
@@ -73,7 +76,20 @@ li {
 .jumbotron {
     background-color:  #9CB770;
     color: black;
+    padding-left: 4em;
+    padding-right: 5em;
+    padding-bottom: 1em;
 }
+
+#about p {
+    margin-top: 2em;
+}
+
+#contacts p {
+    margin-top: 2em;
+}
+
+
 
 
 .bigbannertext {
@@ -102,11 +118,9 @@ font-size: 1em;
     margin-bottom: 5%;
 }
 
-.menu-text {
-    background-color:  #397249;
-    color:  #F3D5BD;
+.menu-containter {
+    text-align: center;
 }
-
 
 .menu {
     width: 15em;
@@ -124,10 +138,6 @@ font-size: 1em;
     
 }
 
-#smoke {
-    background-image: url(./backgrounds/back-smoke.jpg);
-    
-}
 
 .menu-containter {
     margin-top: 6%;
@@ -164,13 +174,13 @@ footer {
         display: none;
     } 
 
-    #bannerpic {
+    #bannerpic {             /* стандартные настойки чтоб картинка была респонсив */
         width: 50%;
         height: 50%;
         overflow: hidden;
     }
 
-    #bannerpic img {
+    #bannerpic img {         /* стандартные настойки чтоб картинка была респонсив */
         max-width: 100%;
         height: 100px;
         display: block;
