@@ -1,0 +1,98 @@
+body
+{
+    background-image: url("img/bg.png");
+    top:0;
+    left: 0;
+}
+i
+{
+    font-size: 29px;
+    margin-right: 0%;
+    color: #c7e1ba;
+}
+.hed
+{
+    width: 100%;
+    background-color: rgba(57, 114, 73, 0.7);
+    margin-right: auto;
+    margin-left: auto;
+   font-size: 30px;
+   font-family: 'Trebuchet MS','Myriad Pro',Arial,sans-serif;
+   color: #fff;
+   text-align: center;
+   border-radius: 10px 10px 0 0;
+   padding-top: 8px;
+}
+
+.line
+{
+    background-color: rgba(199, 225, 186, 0.7);
+    width: 100%;
+    height: 7px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.container
+{
+    margin-left: auto;
+    margin-top: auto;
+    background-color: rgba(20, 20, 20, 0.7);
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+input[type="text"]
+{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 10px;
+
+}
+.dws-submit
+{
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    color: #fff;
+    background-color: #397249;
+    border: none;
+    border-bottom: 4px solid #9cb770;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.dws-submit:hover
+{
+    transition: all 0.5s;
+    background: #fff;
+    color: #3e6649;
+    border-bottom: 4px solid #9ebc99;
+    border-radius: 7px;
+}
+img[src="avatar.png"]
+{
+    margin-top: 2px;
+    margin: 29px -200px;
+    position: absolute;
+}
+img[src="ms.png"]
+{
+    margin-top: 2px;
+    margin: 113px -200px;
+    position: absolute;
+}
+img[src="phone.png"]
+{
+    margin-top: 2px;
+    margin: 191px -200px;
+    position: absolute;
+}
+.dws-input input:hover
+{
+    transition:all 0.3s;
+    box-shadow: 0 0 6px 4px rgba(10, 92, 107, 0.35); 
+}
