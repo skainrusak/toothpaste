@@ -1,13 +1,6 @@
 .jumbotron {
     margin-top: 10%;
     margin-bottom: 10%;
-    
-    padding-bottom: 3em;
-}
-
-@media screen-only and (min-width: 769px) {
-    .jumbotron {
-        text-align: center;
 }
 
 #registration-title {
