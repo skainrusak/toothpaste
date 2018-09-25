@@ -73,7 +73,7 @@ li {
     
 }
 
-.jumbotron {
+.jb-home {
     background-color:  #9CB770;
     color: black;
     padding-left: 4em;
@@ -163,7 +163,7 @@ footer {
         padding:  1em  10px 1em 10px; 
     }
 
-    #logo {
+    #log {
         display: none;
     }
     .bigbannertext {
